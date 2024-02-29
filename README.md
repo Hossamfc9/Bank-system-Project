@@ -1,5 +1,5 @@
 ## Bank System
- #a c++ project that simulates a bank system using OOP principles
+ # a c++ project that simulates a bank system using OOP principles
 
 the project provides basic functionalities commonly found in a bank application, such as creating accounts, depositing and withdrawing funds, checking account balances.
 
@@ -9,7 +9,7 @@ once you compiled the project you will this screen where you can choose a mode.
 
 ![](Images/LogIn.png)
 
-#Admin
+# Admin
 
 <h5>hint: username and password are: Admin</h5>
 
@@ -31,7 +31,7 @@ in the transaction screen you can
 
 - ![](Images/Transactions.png)
 
-#Client
+# Client
 
 Client have access to some features of the project
 
