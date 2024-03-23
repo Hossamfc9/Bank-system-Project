@@ -88,7 +88,8 @@ public:
 	static string GenerateWord(int Length)
 	{
 		enCharType CharactersType = (enCharType)RandomNumber(0, 1);
-		GenerateWord(CharactersType, Length);
+		string Word = GenerateWord(CharactersType, Length);
+		return Word;
 	}
 
 
