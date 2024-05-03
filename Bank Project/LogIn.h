@@ -16,8 +16,8 @@ class clsClientLogIn
 
 	static enClientOP ReadClientOP()
 	{
-		cout << setw(23) << left << ' ' << "Please choose an option[1/3] ";
-		int Option = clsUtility::ReadNumberBetween<int>(1, 3);
+		cout << setw(23) << left << ' ' << "Please choose an option[1/6] ";
+		int Option = clsUtility::ReadNumberBetween<int>(1, 6);
 		return (enClientOP)Option;
 	}
 
