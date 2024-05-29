@@ -118,6 +118,7 @@ public:
 		ofstream File("./TextFiles/Clients.txt", ios::app);
 		File << ConvertClientToLine(Client) << endl;
 		ClientsData[AccountNumber] = Client;
+		Client.Print();
 	}
 
 	static void DeleteClient()
